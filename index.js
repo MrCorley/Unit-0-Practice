@@ -7,8 +7,10 @@
 Write a greeter function that will display 
 'Hello World' to the console.
 */
-
-
+function greeter(){
+  console.log('Hello World')
+}
+greeter()
 
 
 /* 2.
@@ -16,8 +18,8 @@ Write a function that will calculate the sum of two
 numbers.
 
 Example:
-divide(3, 9) => 12
-divide(9, 9) => 18
+sum(3, 9) => 12
+sum(9, 9) => 18
 
 */
 
@@ -29,8 +31,8 @@ Write a function that will calculate the difference
 of two numbers.
 
 Example:
-divide(3, 9) => -6
-divide(9, 9) => 0
+difference(3, 9) => -6
+difference(9, 9) => 0
 
 */
 
@@ -151,6 +153,6 @@ the division of two numbers.
 
 Example:
 remainder(5, 2) => 1
-remainder(10, 7) => 0.5
+remainder(10, 7) => 3
 
 */
