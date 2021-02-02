@@ -7,11 +7,15 @@
 Write a greeter function that will display 
 'Hello World' to the console.
 */
+
+//Inputs: none
+//Outputs: going to print the string of "hello world"
+//Constraints: none
+//Edge Cases: nane
 function greeter(){
   console.log('Hello World')
 }
-greeter()
-
+greeter() //invoking or calling function
 
 /* 2.
 Write a function that will calculate the sum of two 
@@ -23,7 +27,16 @@ sum(9, 9) => 18
 
 */
 
+//Input: two numbers
+//Output: one number that is the sum of the inputs
+//Constraints: none
+//Edge Cases: none
 
+function sum(num1, num2){
+  return num1 + num2
+}
+
+console.log(sum(9, 9), 'this is the sum function') //invoking or calling sum function
 
 
 /* 3.
